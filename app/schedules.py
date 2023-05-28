@@ -12,7 +12,8 @@ class Schedules :
 
         for schedule in schedules:
             scheduleObjects.append(Schedule(schedule))
-        scheduleObjects[1].schedule[2] = False
+        scheduleObjects[1].schedule[3] = False
+        scheduleObjects[1].schedule[5] = False
         return scheduleObjects
 
     
